@@ -3,6 +3,8 @@
 
 :root {
     --laranja-claro: #FF862A;
+    --preto: #000000;
+    --branco: #FFFFFF;
 }
 
 body {
@@ -165,4 +167,9 @@ h2 {
 
 .apresenta-lista{
     display: none;
+}
+
+.alto-contraste {
+    background-color: var(--preto);
+    color: var(--branco);
 }
